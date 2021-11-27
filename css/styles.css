@@ -41,6 +41,7 @@ li{
 h1{
     color: hsl(0, 0%, 100%);
     margin-top: 20px;
+    font-weight: bold;
 }
 span{
     color: hsl(277, 64%, 61%);
