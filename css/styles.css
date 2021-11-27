@@ -1,0 +1,112 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+    font-size: 0.9375rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+.flex-container{
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 10px;
+    margin:25% 5% ; 
+    text-align: center;
+    display: flex;
+}
+.image{
+    position: relative;
+    width:100%;
+    height:230px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    background-color: hsl(277, 64%, 61%);
+    background-image: url(/css/image-header-mobile.jpg);
+    background-blend-mode:multiply;
+}
+.content{
+    margin: 25px;
+
+}
+ul{
+    padding-left: 0;
+}
+li{
+    list-style-type: none;
+    margin: 0s;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+}
+span{
+    color: hsl(277, 64%, 61%);
+}
+
+.para{
+    
+    padding: 0 25px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;
+}
+.Stats{
+    color:hsla(0, 0%, 100%);
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    margin-top:15%;
+    font-weight: bold;
+}
+.entity{
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+@media only screen and (min-width:600px){
+.flex-container{
+    font-size: large;
+    margin: 30% 15%;
+}
+h1{
+    padding: 0 10%;
+}
+.para{
+    padding: 0 15%;
+    margin-top: 40px;
+}
+.entity{
+    font-size: 1rem;
+}
+.Stats{
+    font-size: 2rem;
+}
+}
+@media only screen and (min-width:1200px){
+.flex-container{
+    margin: 10%;
+    flex-direction: row-reverse;
+    text-align: left;
+}
+.para{
+    padding: 0 10%;
+}
+li{
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.image{
+    background-image: url(/css/image-header-desktop.jpg);
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0;
+    height: 480px;
+}
+}
+
+
